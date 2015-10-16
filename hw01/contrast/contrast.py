@@ -1,6 +1,8 @@
 # Eugene Auduchinok, 2015
 
 import cv2
+import numpy as np
+
 
 img = cv2.imread('low-contrast.png', 0)
 rows, cols = img.shape
